@@ -16,4 +16,4 @@ router.get('/test', ctx => (ctx.body = 'hello word'))
 
 app.use(router.routes()).use(router.allowedMethods())
 
-app.listen(5000, () => console.debug('online na port 5000');
+app.listen(5000, () => console.debug('online na port 5000'));
