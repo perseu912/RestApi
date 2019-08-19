@@ -1,0 +1,27 @@
+{
+  "name": "restapi",
+  "version": "1.0.0",
+  "description": "rest api in koa.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/perseu912/RestApi.git"
+  },
+  "author": "perseu912",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/perseu912/RestApi/issues"
+  },
+  "homepage": "https://github.com/perseu912/RestApi#readme",
+  "dependencies": {
+    "http": "0.0.0",
+    "koa": "^2.8.1",
+    "koa-ejs": "^4.2.0",
+    "koa-json": "^2.0.2",
+    "koa-router": "^7.4.0",
+    "path": "^0.12.7"
+  }
+}
